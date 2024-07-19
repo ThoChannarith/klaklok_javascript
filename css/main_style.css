@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: rgb(200, 248, 186);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 900px;
     display: flex;
@@ -19,7 +19,6 @@ body {
 
 .left_panel {
     flex: 2;
-    background-color: lightblue;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -59,7 +58,6 @@ body {
 
 .right_panel {
     flex: 1;
-    background-color: lightgreen;
     padding: 20px;
     box-sizing: border-box;
     
