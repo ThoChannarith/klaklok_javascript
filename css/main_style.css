@@ -62,10 +62,58 @@ body {
     background-color: lightgreen;
     padding: 20px;
     box-sizing: border-box;
+    
 }
 
 .result-section {
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+}
+
+.status-section{
+    padding-top: 20px;
+}
+
+.status-section p {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.money-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Adjust the gap as needed */
+    margin-top: 10px;
+}
+
+.money-container p {
+    margin: 0;
+    text-align: left;
+}
+
+.status-section input {
+    text-align: center;
+    font-size: 18px;
+    width: 100px;
+}
+
+.buttons {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buttons button {
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.exit-button {
+    background-color: red;
+    color: white;
+    border: none;
 }
