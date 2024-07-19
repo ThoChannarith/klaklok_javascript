@@ -26,9 +26,46 @@ body {
     flex-direction: column;
 }
 
+.input_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.image_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image_box {
+    flex: 1 1 calc(33.333% - 20px); /* 3 images per row with 10px gap on both sides */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.image_box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image_box input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
 .right_panel {
     flex: 1;
     background-color: lightgreen;
     padding: 20px;
     box-sizing: border-box;
+}
+
+.result-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
 }
