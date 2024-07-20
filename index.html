@@ -66,11 +66,16 @@
                 <button id="start">START</button>
                 <button id="stop">STOP</button>
                 <button id="play-again">PLAY AGAIN</button>
-                <button class="exit-button">EXIT</button>
+                <button class="exit" id="exit">EXIT</button>
             </div>
         </div>
     </div>
     <!-- JavaScript -->
     <script src="js/script.js"></script>
+    <script>
+        window.onload = function() {
+            document.getElementById('exit').onclick = function() {process('exit');}
+        }
+    </script>
 </body>
 </html>
