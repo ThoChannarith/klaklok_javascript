@@ -64,8 +64,8 @@
             </div>
             <div class="buttons">
                 <button id="start">START</button>
-                <button id="stop">STOP</button>
-                <button id="play-again">PLAY AGAIN</button>
+                <button id="stop" disabled>STOP</button>
+                <!-- <button id="play_again" disabled>PLAY AGAIN</button> -->
                 <button class="exit" id="exit">EXIT</button>
             </div>
         </div>
@@ -74,7 +74,10 @@
     <script src="js/script.js"></script>
     <script>
         window.onload = function() {
-            document.getElementById('exit').onclick = function() {process('exit');}
+            document.getElementById('exit').onclick = function(){process('exit');}
+            document.getElementById('start').onclick = function(){process('start');}
+            document.getElementById('stop').onclick = function(){process('stop');}
+            document.getElementById('play_again').onclick = function(){process('play_again');}
         }
     </script>
 </body>
